@@ -1,0 +1,9 @@
+@import './fonts.css';
+
+#app {
+    color: green;
+}
+
+#app:fullscreen {
+    background-color: blue;
+}
