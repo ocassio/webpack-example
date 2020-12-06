@@ -7,3 +7,10 @@
 #app:fullscreen {
     background-color: blue;
 }
+
+.logo {
+    background-image: url('../assets/nc_logo.png');
+    background-size: contain;
+    width: 1200px;
+    height: 200px;
+}
