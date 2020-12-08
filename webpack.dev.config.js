@@ -3,7 +3,7 @@ const commonConfig = require('./webpack.common.config');
 
 module.exports = merge(commonConfig, {
     mode: 'development',
-    devtool: 'cheap-module-source-map',
+    devtool: 'eval-cheap-module-source-map',
     devServer: {
         port: 3000
     },
